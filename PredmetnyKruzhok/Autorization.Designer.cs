@@ -54,7 +54,7 @@
             this.errorText.BackColor = System.Drawing.Color.Transparent;
             this.errorText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.errorText.ForeColor = System.Drawing.Color.Red;
-            this.errorText.Location = new System.Drawing.Point(184, 272);
+            this.errorText.Location = new System.Drawing.Point(227, 278);
             this.errorText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.errorText.Name = "errorText";
             this.errorText.Size = new System.Drawing.Size(39, 17);
@@ -80,10 +80,10 @@
             this.LoginButton.ForeColor = System.Drawing.Color.Gainsboro;
             this.LoginButton.HoverState.FillColor = System.Drawing.Color.Gainsboro;
             this.LoginButton.HoverState.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.LoginButton.Location = new System.Drawing.Point(265, 298);
+            this.LoginButton.Location = new System.Drawing.Point(230, 319);
             this.LoginButton.Margin = new System.Windows.Forms.Padding(2);
             this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(135, 39);
+            this.LoginButton.Size = new System.Drawing.Size(160, 53);
             this.LoginButton.TabIndex = 20;
             this.LoginButton.Text = "Войти";
             this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
@@ -106,10 +106,10 @@
             this.SignUpButton.HoverState.BorderColor = System.Drawing.Color.White;
             this.SignUpButton.HoverState.FillColor = System.Drawing.Color.White;
             this.SignUpButton.HoverState.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.SignUpButton.Location = new System.Drawing.Point(274, 370);
+            this.SignUpButton.Location = new System.Drawing.Point(447, 319);
             this.SignUpButton.Margin = new System.Windows.Forms.Padding(2);
             this.SignUpButton.Name = "SignUpButton";
-            this.SignUpButton.Size = new System.Drawing.Size(135, 37);
+            this.SignUpButton.Size = new System.Drawing.Size(170, 53);
             this.SignUpButton.TabIndex = 19;
             this.SignUpButton.Text = "Регистрация";
             this.SignUpButton.Click += new System.EventHandler(this.SignUpButton_Click);
@@ -130,13 +130,13 @@
             this.passwordTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.passwordTextBox.ForeColor = System.Drawing.Color.Black;
             this.passwordTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.passwordTextBox.Location = new System.Drawing.Point(177, 217);
+            this.passwordTextBox.Location = new System.Drawing.Point(230, 219);
             this.passwordTextBox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.PasswordChar = '*';
             this.passwordTextBox.PlaceholderText = "Пароль";
             this.passwordTextBox.SelectedText = "";
-            this.passwordTextBox.Size = new System.Drawing.Size(316, 41);
+            this.passwordTextBox.Size = new System.Drawing.Size(387, 41);
             this.passwordTextBox.TabIndex = 18;
             // 
             // label1
@@ -145,7 +145,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(231, 68);
+            this.label1.Location = new System.Drawing.Point(330, 69);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(178, 31);
@@ -168,13 +168,13 @@
             this.loginTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.loginTextBox.ForeColor = System.Drawing.Color.Black;
             this.loginTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.loginTextBox.Location = new System.Drawing.Point(177, 139);
+            this.loginTextBox.Location = new System.Drawing.Point(230, 138);
             this.loginTextBox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.loginTextBox.Name = "loginTextBox";
             this.loginTextBox.PasswordChar = '\0';
             this.loginTextBox.PlaceholderText = "Логин";
             this.loginTextBox.SelectedText = "";
-            this.loginTextBox.Size = new System.Drawing.Size(316, 41);
+            this.loginTextBox.Size = new System.Drawing.Size(387, 41);
             this.loginTextBox.TabIndex = 16;
             this.loginTextBox.WordWrap = false;
             // 

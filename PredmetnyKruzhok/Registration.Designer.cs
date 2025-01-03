@@ -88,7 +88,7 @@
             this.BackButton.Location = new System.Drawing.Point(11, 11);
             this.BackButton.Margin = new System.Windows.Forms.Padding(2);
             this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(129, 52);
+            this.BackButton.Size = new System.Drawing.Size(111, 59);
             this.BackButton.TabIndex = 22;
             this.BackButton.Text = "Назад";
             this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
@@ -136,10 +136,10 @@
             this.SignUpButton.HoverState.BorderColor = System.Drawing.Color.White;
             this.SignUpButton.HoverState.FillColor = System.Drawing.Color.White;
             this.SignUpButton.HoverState.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.SignUpButton.Location = new System.Drawing.Point(317, 325);
+            this.SignUpButton.Location = new System.Drawing.Point(259, 357);
             this.SignUpButton.Margin = new System.Windows.Forms.Padding(2);
             this.SignUpButton.Name = "SignUpButton";
-            this.SignUpButton.Size = new System.Drawing.Size(135, 37);
+            this.SignUpButton.Size = new System.Drawing.Size(210, 62);
             this.SignUpButton.TabIndex = 20;
             this.SignUpButton.Text = "Регистрация";
             this.SignUpButton.Click += new System.EventHandler(this.SignUpButton_Click);
@@ -214,10 +214,10 @@
             this.guna2ControlBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(613, 11);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(671, 11);
             this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(104, 42);
+            this.guna2ControlBox1.Size = new System.Drawing.Size(55, 42);
             this.guna2ControlBox1.TabIndex = 16;
             this.guna2ControlBox1.Click += new System.EventHandler(this.guna2ControlBox1_Click);
             // 

@@ -54,7 +54,7 @@
             this.guna2ControlBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(872, 17);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(905, 17);
             this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(34, 24);
@@ -124,7 +124,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(708, 233);
+            this.dataGridView1.Size = new System.Drawing.Size(681, 233);
             this.dataGridView1.TabIndex = 65;
             // 
             // Column5
@@ -275,7 +275,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(17, 9);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(45, 50);
             this.pictureBox1.TabIndex = 69;
@@ -299,7 +299,7 @@
             this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Name = "uchashchiesya";
-            this.Size = new System.Drawing.Size(705, 437);
+            this.Size = new System.Drawing.Size(738, 430);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
