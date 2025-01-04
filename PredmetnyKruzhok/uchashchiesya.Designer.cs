@@ -43,6 +43,7 @@
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -78,7 +79,7 @@
             this.guna2Button6.HoverState.BorderColor = System.Drawing.Color.White;
             this.guna2Button6.HoverState.FillColor = System.Drawing.Color.White;
             this.guna2Button6.HoverState.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.guna2Button6.Location = new System.Drawing.Point(465, 57);
+            this.guna2Button6.Location = new System.Drawing.Point(535, 46);
             this.guna2Button6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(125, 41);
@@ -103,7 +104,7 @@
             this.guna2Button4.HoverState.BorderColor = System.Drawing.Color.White;
             this.guna2Button4.HoverState.FillColor = System.Drawing.Color.White;
             this.guna2Button4.HoverState.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.guna2Button4.Location = new System.Drawing.Point(67, 55);
+            this.guna2Button4.Location = new System.Drawing.Point(2, 9);
             this.guna2Button4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(98, 41);
@@ -268,19 +269,33 @@
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(260, 9);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(75, 31);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(116, 31);
             this.guna2HtmlLabel1.TabIndex = 60;
-            this.guna2HtmlLabel1.Text = "Блюда";
+            this.guna2HtmlLabel1.Text = "Учащиеся";
             this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.TopRight;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(17, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(141, 46);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(45, 50);
             this.pictureBox1.TabIndex = 69;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // guna2ControlBox2
+            // 
+            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox2.Location = new System.Drawing.Point(686, 9);
+            this.guna2ControlBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.Size = new System.Drawing.Size(34, 24);
+            this.guna2ControlBox2.TabIndex = 70;
+            this.guna2ControlBox2.Click += new System.EventHandler(this.guna2ControlBox2_Click);
             // 
             // uchashchiesya
             // 
@@ -288,6 +303,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PredmetnyKruzhok.Properties.Resources.fon;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Controls.Add(this.guna2ControlBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.guna2Button6);
@@ -324,5 +340,6 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
     }
 }

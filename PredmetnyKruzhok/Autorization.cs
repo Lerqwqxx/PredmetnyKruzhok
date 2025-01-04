@@ -8,6 +8,7 @@ namespace PredmetnyKruzhok
 {
     public partial class Autorization : Form
     {
+
         public Autorization()
         {
             InitializeComponent();
