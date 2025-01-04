@@ -121,10 +121,33 @@ namespace PredmetnyKruzhok
 
             db.closeConnection();
         }
+        private void ApplyExecuteResults()
+        {
+            DB db = new DB();
 
+            MySqlCommand command = new MySqlCommand("INSERT INTO `users` (`login`, `password`) VALUES (@login, @pass)", db.getConnection());
+
+            command.Parameters.Add("@login", MySqlDbType.VarChar).Value = loginTextBox.Text;
+            command.Parameters.Add("@pass", MySqlDbType.VarChar).Value = passwordTextBox.Text;
+
+            db.openConnection();
+
+            if (command.ExecuteNonQuery() == 1)
+            {
+                MessageBox.Show("Аккаунт создан!");
+                this.Close();
+                new Autorization().Show();
+            }
+            else
+            {
+                errorLabel.Text = "Ошибка созадния аккаунта";
+                errorLabel.Visible = true;
+            }
+
+            db.closeConnection();
+        }
         private void BackButton_Click(object sender, EventArgs e)
         {
-
             this.Close();
             new Autorization().Show();
         }
