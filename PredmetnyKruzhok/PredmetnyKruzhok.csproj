@@ -107,6 +107,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddUchashchiesya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUchashchiesya.Designer.cs">
+      <DependentUpon>AddUchashchiesya.cs</DependentUpon>
+    </Compile>
     <Compile Include="Autorization.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,12 +134,15 @@
     <Compile Include="Registration.Designer.cs">
       <DependentUpon>Registration.cs</DependentUpon>
     </Compile>
-    <Compile Include="uchashchiesya.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Uchashchiesya.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="uchashchiesya.Designer.cs">
-      <DependentUpon>uchashchiesya.cs</DependentUpon>
+    <Compile Include="Uchashchiesya.Designer.cs">
+      <DependentUpon>Uchashchiesya.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddUchashchiesya.resx">
+      <DependentUpon>AddUchashchiesya.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Autorization.resx">
       <DependentUpon>Autorization.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,8 +162,8 @@
     <EmbeddedResource Include="Registration.resx">
       <DependentUpon>Registration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="uchashchiesya.resx">
-      <DependentUpon>uchashchiesya.cs</DependentUpon>
+    <EmbeddedResource Include="Uchashchiesya.resx">
+      <DependentUpon>Uchashchiesya.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

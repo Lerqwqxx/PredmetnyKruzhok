@@ -76,7 +76,7 @@
             this.guna2Button7.HoverState.BorderColor = System.Drawing.Color.White;
             this.guna2Button7.HoverState.FillColor = System.Drawing.Color.White;
             this.guna2Button7.HoverState.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.guna2Button7.Location = new System.Drawing.Point(14, 460);
+            this.guna2Button7.Location = new System.Drawing.Point(6, 428);
             this.guna2Button7.Name = "guna2Button7";
             this.guna2Button7.Size = new System.Drawing.Size(163, 51);
             this.guna2Button7.TabIndex = 53;
@@ -124,7 +124,7 @@
             this.guna2Button5.HoverState.BorderColor = System.Drawing.Color.White;
             this.guna2Button5.HoverState.FillColor = System.Drawing.Color.White;
             this.guna2Button5.HoverState.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.guna2Button5.Location = new System.Drawing.Point(14, 403);
+            this.guna2Button5.Location = new System.Drawing.Point(6, 353);
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(163, 51);
             this.guna2Button5.TabIndex = 51;
@@ -148,7 +148,7 @@
             this.guna2Button4.HoverState.BorderColor = System.Drawing.Color.White;
             this.guna2Button4.HoverState.FillColor = System.Drawing.Color.White;
             this.guna2Button4.HoverState.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.guna2Button4.Location = new System.Drawing.Point(3, 333);
+            this.guna2Button4.Location = new System.Drawing.Point(6, 269);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(163, 51);
             this.guna2Button4.TabIndex = 50;
@@ -172,7 +172,7 @@
             this.guna2Button2.HoverState.BorderColor = System.Drawing.Color.White;
             this.guna2Button2.HoverState.FillColor = System.Drawing.Color.White;
             this.guna2Button2.HoverState.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.guna2Button2.Location = new System.Drawing.Point(0, 276);
+            this.guna2Button2.Location = new System.Drawing.Point(6, 184);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(163, 51);
             this.guna2Button2.TabIndex = 49;
@@ -196,7 +196,7 @@
             this.guna2Button1.HoverState.BorderColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.guna2Button1.Location = new System.Drawing.Point(0, 205);
+            this.guna2Button1.Location = new System.Drawing.Point(6, 102);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(163, 51);
             this.guna2Button1.TabIndex = 48;
@@ -220,11 +220,12 @@
             this.guna2Button3.HoverState.BorderColor = System.Drawing.Color.White;
             this.guna2Button3.HoverState.FillColor = System.Drawing.Color.White;
             this.guna2Button3.HoverState.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.guna2Button3.Location = new System.Drawing.Point(3, 161);
+            this.guna2Button3.Location = new System.Drawing.Point(6, 17);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(163, 51);
             this.guna2Button3.TabIndex = 47;
             this.guna2Button3.Text = "Ученики";
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2Elipse1
             // 
@@ -255,9 +256,9 @@
             this.BackButton.HoverState.BorderColor = System.Drawing.Color.White;
             this.BackButton.HoverState.FillColor = System.Drawing.Color.White;
             this.BackButton.HoverState.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BackButton.Location = new System.Drawing.Point(12, 12);
+            this.BackButton.Location = new System.Drawing.Point(18, 23);
             this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(163, 51);
+            this.BackButton.Size = new System.Drawing.Size(96, 53);
             this.BackButton.TabIndex = 54;
             this.BackButton.Text = "Назад";
             this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
@@ -267,14 +268,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PredmetnyKruzhok.Properties.Resources.fon;
-            this.ClientSize = new System.Drawing.Size(888, 605);
+            this.ClientSize = new System.Drawing.Size(1068, 633);
             this.Controls.Add(this.BackButton);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

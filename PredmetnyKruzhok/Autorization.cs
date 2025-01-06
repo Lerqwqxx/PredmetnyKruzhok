@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace PredmetnyKruzhok
 {
+
     public partial class Autorization : Form
     {
 
@@ -43,7 +44,7 @@ namespace PredmetnyKruzhok
 
                 db.openConnection();
 
-                Menu.idInfo = mySqlCommand.ExecuteScalar().ToString();
+                PredmetnyKruzhok.Menu.idInfo = mySqlCommand.ExecuteScalar().ToString();
 
                 db.closeConnection();
 
